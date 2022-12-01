@@ -1,0 +1,193 @@
+<main role="main">
+    <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#"> <img src="../assets/images/logo.jpg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login / Register</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">All Categories</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="#">Development</a>
+                        <a class="dropdown-item" href="#">UI/UX</a>
+                        <a class="dropdown-item" href="#">Marketing</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner-tile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Angular Basics in English & Malayalam : Beginners Only</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="course-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="border">
+                        <div class="o-video" *ngIf="language=='ML'">
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%"
+                                height="443" type="text/html"
+                                src="https://www.youtube.com/embed/os4m_9NtEgo?autoplay=0&fs=1&iv_load_policy=3&showinfo=1&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com"></iframe>
+                        </div>
+                        <div class="o-video" *ngIf="language!='ML'">
+                            <iframe width="752" height="538" src="https://www.youtube.com/embed/2wrEurIyRA8"
+                                title="Angular Basics in English (Preview only)" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h2 class="mt-3 mb-3">Course Overview</h2>
+                        <p>
+                            Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor in my flat,
+                            up
+                            the duff Eaton car boot up the kyver pardon you A bit of how's your father David skive off
+                            sloshed, don't get shirty with me chip shop vagabond crikey bugger Queen's English chap.
+                            Matie
+                            boy nancy boy bite your arm off up the kyver old no biggie fantastic boot, David have it
+                            show
+                            off show off pick your nose and blow off lost the plot porkies bits and bobs only a quid
+                            bugger
+                            all mate, absolutely bladdered bamboozled it's your round don't get shirty with me down the
+                            pub
+                            well.
+                        </p>
+                        <div class="course-learn-list">
+                            <h3 class="title">Specifications</h3>
+                            <ul>
+                                <li>Free Demo</li>
+                                <li>Flexible Timing</li>
+                                <li>Realtime Project Work</li>
+                                <li>Learn From Experts</li>
+                                <li>Get Certified</li>
+                                <li>Full lifetime access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="border mb-3">
+                        <div class="vedio-box-text">
+                            <ul>
+                                <li><span>Course name :</span> Angular Basics in English & Malayalam : Beginners Only
+                                </li>
+                                <li><span>Instructor :</span> Sarathlal Saseendran</li>
+                                <li><span>Lecture No :</span> 12</li>
+                                <li><span>Length :</span> 2:30 Hours</li>
+                                <li *ngIf="language=='ML'"><span>Language :</span> Malayalam</li>
+                                <li *ngIf="language!='ML'"><span>Language :</span> English</li>
+                                <li class="select-dropdown">
+                                    <select name="cars" id="language" [(ngModel)]="language">
+                                        <option value="ML">Malayalam</option>
+                                        <option value="EN">English</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <div class="star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                            aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o"
+                                            aria-hidden="true"></i> <span>4.5 Ratings ( 204 students enrolled )</span>
+                                    </div>
+                                </li>
+                                <li><a href="#">Join Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 pb-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Contact</h2>
+                    <div class="row br">
+                        <div class="col-md-2 text-center"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h3 class="box-title">
+                                <span>Call Anytime</span>
+                            </h3>
+                            <p class="box-description">
+                                <a class="text-white" href="#">+91-484-6616-118</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row br">
+                        <div class="col-md-2 text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="col-md-10">
+                            <h3 class="box-title">
+                                <span>Send Email</span>
+                            </h3>
+                            <p class="box-description">
+                                <a class="text-white" href="#">
+                                    contact@oiacademy.com
+                                </a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 text-center"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="col-md-10">
+                            <h3 class="box-title">
+                                <span>Visit Office</span>
+                            </h3>
+                            <p class="box-description">
+                                <a class="text-white" href="#">
+                                    Kochi, Kerala
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Join Us</a></li>
+                        <li><a href="#">Our News</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h2>Teaching</h2>
+                    <ul>
+                        <li><a href="#">Teachers</a></li>
+                        <li><a href="#">Become a Teacher</a></li>
+                        <li><a href="#">Teacher Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help and FAQ</a></li>
+                        <li><a href="#">Tech Requirements</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

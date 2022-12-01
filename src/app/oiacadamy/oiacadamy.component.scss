@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400&display=swap');
+body {
+	font-family: 'Kumbh Sans', sans-serif !important;
+    font-size: 16px;
+}
+.intro {
+    padding: 35px 0 65px;
+    background-image: url(../../assets/images/shape.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.testimonial {
+    background-color: #f9f9f9;
+    background-image: url(../../assets/images/bg-line.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 65px 0 65px;
+}
+.courses {
+    padding: 65px 0 49px !important;
+    a, a:hover {
+        color: #666666;
+        text-decoration: none;
+    }
+}

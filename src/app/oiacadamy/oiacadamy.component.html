@@ -1,0 +1,513 @@
+<div>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#"> <img src="../assets/images/logo.jpg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login / Register</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">All Categories</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="#">Development</a>
+                        <a class="dropdown-item" href="#">UI/UX</a>
+                        <a class="dropdown-item" href="#">Marketing</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="col-sm-10 mx-auto">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <h1>
+                            What do you want to learn<br />
+                            today?
+                        </h1>
+                        <div class="mb-3">
+                            <form class="form-inline my-2 my-md-0">
+                                <input class="form-control py-2" type="Search" value="Search Courses" />
+                                <span class="input-group-append">
+                                    <button class="btn btn-secondary" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                            </form>
+                        </div>
+                        <p class="links">Suggestions: <a>Angular</a> <a>Bootstrap</a></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="../assets/images/banner.jpg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="intro-text">
+                            <h2>
+                                Start Learning with OI Academy
+                            </h2>
+                            <p>Et esse enim hic quaerat beatae est voluptas autem non suscipit dolores est excepturi
+                                architecto vel excepturi quia est sint minima! Vel vero quod eos rerum quos eos natus
+                                laboriosam ut amet quia et harum laudantium. Qui itaque architecto ut quia tempora qui
+                                architecto dolorem sed adipisci magnam velit alias ea molestias incidunt. Est iure quas
+                                qui sequi eveniet sit consequatur eius est voluptatibus odio sit explicabo sunt eos
+                                autem ratione.</p>
+                            <ul>
+                                <li>Get unlimited access to 66000+ of our top courses</li>
+                                <li>Explore a variety of fresh educational topics</li>
+                                <li>Find the best qualitfied teacher for you</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="intro-image">
+                            <img src="../assets/images/intro.jpg" class="img-fluid" />
+                            <div class="line-color"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="courses">
+            <div class="container">
+                <h2>Featured Courses</h2>
+                <div class="row pb-3 position-relative">
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <a [routerLink]="['/details-general']" href="#" class="introduce pb-3">
+                            <div class="feat_course_item">
+                                <img src="../assets/images/courses1.jpg" alt="image" />
+                                <div class="feat_cour_price">
+                                    <span class="feat_cour_tag"> UI/UX </span>
+                                </div>
+                                <h4 class="feat_cour_tit">
+                                    Designing for the Future : UI/UX Prototyping
+                                </h4>
+                                <div class="feat_cour_lesson">
+                                    <span class="feat_cour_less">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i> 20
+                                        lessons
+                                    </span>
+                                    <span class="feat_cour_stu">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> 237 Students
+                                    </span>
+                                </div>
+                                <div class="feat_cour_rating">
+                                    <span class="feat_cour_rat">
+                                        4.6
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <a [routerLink]="['/details-angular']" href="#" class="introduce pb-3">
+                            <div class="feat_course_item">
+                                <img src="../assets/images/courses2.jpg" alt="image" />
+                                <div class="feat_cour_price">
+                                    <span class="feat_cour_tag"> Development </span>
+                                </div>
+                                <h4 class="feat_cour_tit">
+                                    Angular Basics in English & Malayalam
+                                </h4>
+                                <div class="feat_cour_lesson">
+                                    <span class="feat_cour_less">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i> 20
+                                        lessons
+                                    </span>
+                                    <span class="feat_cour_stu">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> 237 Students
+                                    </span>
+                                </div>
+                                <div class="feat_cour_rating">
+                                    <span class="feat_cour_rat">
+                                        4.6
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <a href="#" class="introduce pb-3">
+                            <div class="feat_course_item">
+                                <img src="../assets/images/courses3.jpg" alt="image" />
+                                <div class="feat_cour_price">
+                                    <span class="feat_cour_tag"> Design </span>
+                                </div>
+                                <h4 class="feat_cour_tit">
+                                    From Beginner to Super Designer : Adobe Photoshop
+                                </h4>
+                                <div class="feat_cour_lesson">
+                                    <span class="feat_cour_less">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i> 20
+                                        lessons
+                                    </span>
+                                    <span class="feat_cour_stu">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> 237 Students
+                                    </span>
+                                </div>
+                                <div class="feat_cour_rating">
+                                    <span class="feat_cour_rat">
+                                        4.6
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <a href="#" class="introduce pb-3">
+                            <div class="feat_course_item">
+                                <img src="../assets/images/courses4.jpg" alt="image" />
+                                <div class="feat_cour_price">
+                                    <span class="feat_cour_tag"> Development </span>
+                                </div>
+                                <h4 class="feat_cour_tit">
+                                    WordPress Development : Intermediate
+                                </h4>
+                                <div class="feat_cour_lesson">
+                                    <span class="feat_cour_less">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i> 20
+                                        lessons
+                                    </span>
+                                    <span class="feat_cour_stu">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> 237 Students
+                                    </span>
+                                </div>
+                                <div class="feat_cour_rating">
+                                    <span class="feat_cour_rat">
+                                        4.6
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <a href="#" class="introduce pb-3">
+                            <div class="feat_course_item">
+                                <img src="../assets/images/courses5.jpg" alt="image" />
+                                <div class="feat_cour_price">
+                                    <span class="feat_cour_tag"> Development </span>
+                                </div>
+                                <h4 class="feat_cour_tit">
+                                    HTML & CSS : Coding for Beginners
+                                </h4>
+                                <div class="feat_cour_lesson">
+                                    <span class="feat_cour_less">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i> 20
+                                        lessons
+                                    </span>
+                                    <span class="feat_cour_stu">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> 237 Students
+                                    </span>
+                                </div>
+                                <div class="feat_cour_rating">
+                                    <span class="feat_cour_rat">
+                                        4.6
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <a href="#" class="introduce pb-3">
+                            <div class="feat_course_item">
+                                <img src="../assets/images/courses6.jpg" alt="image" />
+                                <div class="feat_cour_price">
+                                    <span class="feat_cour_tag"> Marketing </span>
+                                </div>
+                                <h4 class="feat_cour_tit">
+                                    Digital Marketing : Copywriting & Blogging
+                                </h4>
+                                <div class="feat_cour_lesson">
+                                    <span class="feat_cour_less">
+                                        <i class="fa fa-file-text-o" aria-hidden="true"></i> 20
+                                        lessons
+                                    </span>
+                                    <span class="feat_cour_stu">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> 237 Students
+                                    </span>
+                                </div>
+                                <div class="feat_cour_rating">
+                                    <span class="feat_cour_rat">
+                                        4.6
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="container">
+                <h2 class="text-left">What our students say</h2>
+                <div class="card mt-0 bg-none">
+                    <div id="carouselControls" class="carousel slide" data-ride="carousel" data-interval="100000">
+                        <ul class="carousel-indicators">
+                            <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselControls" data-slide-to="1" class=""></li>
+                        </ul>
+                        <div class="w-100 carousel-inner mb-5" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="bg"></div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="carousel-caption">
+                                            <div class="row">
+                                                <div class="col-sm-3 col-4 align-items-start justify-content-center">
+                                                    <img src="https://i.pravatar.cc/300" alt=""
+                                                        class="rounded-circle img-fluid">
+                                                </div>
+                                                <div class="col-sm-9 col-8">
+                                                    <h2>Micheal Smith - <span>Web Developer</span></h2>
+                                                    <p>“Ultimately, OI Academy is what really became the driving force
+                                                        behind the career change.”
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="carousel-caption">
+                                            <div class="row">
+                                                <div class="col-sm-3 col-4 align-items-start  justify-content-center">
+                                                    <img src="https://i.pravatar.cc/150?img=14" alt=""
+                                                        class="rounded-circle img-fluid">
+                                                </div>
+                                                <div class="col-sm-9 col-8">
+                                                    <h2>Helena Doe - <span>Architect</span></h2>
+                                                    <p>“I got my start in front-end development thanks to OI Academy,
+                                                        and this was a gateway to a
+                                                        new career”</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg"></div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="carousel-caption">
+                                            <div class="row">
+                                                <div class="col-sm-3 col-4 align-items-start  justify-content-center">
+                                                    <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt=""
+                                                        class="rounded-circle img-fluid">
+                                                </div>
+                                                <div class="col-sm-9 col-8">
+                                                    <h2>John Doe - <span>Designer</span></h2>
+                                                    <p>OI Academy helped me discover my passion and now I love what I
+                                                        do!”</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="carousel-caption">
+                                            <div class="row">
+                                                <div class="col-sm-3 col-4 align-items-start  justify-content-center">
+                                                    <img src="https://i.pravatar.cc/150?img=53" alt=""
+                                                        class="rounded-circle img-fluid">
+                                                </div>
+                                                <div class="col-sm-9 col-8">
+                                                    <h2>Sarath Saseendran - <span>Technical Architect</span></h2>
+                                                    <p>“I got a promotion! I needed to upskill myself, and OI Academy
+                                                        truly helped me with that.”
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <h2 class="text-left">News & articles</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../assets/images/post-1.jpg" class="img-fluid" />
+                        <div class="tag">
+                            #microsoft #azure #chatbotdevelopment
+                        </div>
+                        <div class="title">
+                            <h3>OI Academy is hosting K-MUG free tech event at our Kochi office.</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="../assets/images/post-2.jpg" class="img-fluid" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="tag mt-0">
+                                    #devops #aws #ignite
+                                </div>
+                                <div class="title">
+                                    <h3>Azure Cognitive Services for Indian Languages</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img src="../assets/images/post-3.jpg" class="img-fluid" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="tag mt-0">
+                                    #devops #aws #ignite
+                                </div>
+                                <div class="title">
+                                    <h3>DevOps, Cloud networking, and other best practices</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <img src="../assets/images/post-4.jpg" class="img-fluid" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="tag mt-0">
+                                    #devops #aws #ignite
+                                </div>
+                                <div class="title">
+                                    <h3>Introduction to .NET MAUI</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5 footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2>Contact</h2>
+                        <div class="row br">
+                            <div class="col-md-2 text-center"><i class="fa fa-volume-control-phone"
+                                    aria-hidden="true"></i></div>
+                            <div class="col-md-10">
+                                <h3 class="box-title">
+                                    <span>Call Anytime</span>
+                                </h3>
+                                <p class="box-description">
+                                    <a class="text-white" href="#">+91-484-6616-118</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row br">
+                            <div class="col-md-2 text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                            <div class="col-md-10">
+                                <h3 class="box-title">
+                                    <span>Send Email</span>
+                                </h3>
+                                <p class="box-description">
+                                    <a class="text-white" href="#">
+                                        contact@oiacademy.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 text-center"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="col-md-10">
+                                <h3 class="box-title">
+                                    <span>Visit Office</span>
+                                </h3>
+                                <p class="box-description">
+                                    <a class="text-white" href="#">
+                                        Kochi, Kerala
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <h2>Links</h2>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Join Us</a></li>
+                            <li><a href="#">Our News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <h2>Teaching</h2>
+                        <ul>
+                            <li><a href="#">Teachers</a></li>
+                            <li><a href="#">Become a Teacher</a></li>
+                            <li><a href="#">Teacher Help Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <h2>Support</h2>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Help and FAQ</a></li>
+                            <li><a href="#">Tech Requirements</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
